@@ -19,4 +19,3 @@ public class OrderQueueSender {
 		rabbitTemplate.convertAndSend(this.queue.getName(),order);
 	}
 }
-//https://emmanuelneri.com.br/2018/03/07/rabbitmq-no-spring-boot/
